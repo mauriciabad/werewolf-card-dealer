@@ -2,3 +2,6 @@ ci:
   preset: lighthouse:all
   upload:
     target: temporary-public-storage
+  url:
+    - http://localhost/
+    - http://localhost/player?player=Mauri&character=c%3Awerewolf&abilities=a%3Amajor&creationDate=2022-11-28T10%3A07%3A25.189Z

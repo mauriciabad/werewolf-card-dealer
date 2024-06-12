@@ -5,6 +5,6 @@ jobs:
     name: CI
     uses: mauriciabad/my-actions/.github/workflows/ci-vite.yml@main
     with:
-      lighthouse: false
+      lighthouse: true
     secrets:
       LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
